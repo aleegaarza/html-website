@@ -4,30 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main project</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Hello!👋</h1>
+      <h1 style="text-align: center">Hello!👋</h1>
     </header>
     <main>
-      <h3>Click any link to see more</h3>
+      <h3>Click any icon to see more</h3>
       <ol>
         <li>
-          <a href="./pages/books.html">My favorite books</a>
+          <a href="./pages/books.html">
+            <img src="./images/bookIcon.svg" alt="book" />
+          </a>
         </li>
         <li>
-          <a href="./pages/food.html">My favorite food</a>
+          <a href="./pages/food.html">
+            <img src="images/food.svg" alt="food" />
+          </a>
         </li>
         <li>
-          <a href="./pages/movies.html">My favorite movies</a>
+          <a href="./pages/movies.html">
+            <img src="images/video.svg" alt="video" />
+          </a>
         </li>
         <li>
-          <a href="./pages/trips.html">My trips</a>
+          <a href="./pages/trips.html">
+            <img src="images/airplane.svg" alt="airplane" />
+          </a>
         </li>
       </ol>
     </main>
     <footer>
-      <p>by Alejandra Garza</p>
+      <div class="socialmedia">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/aleegaarza/"
+        >
+          <img src="images/instagram.svg" alt="instagram" />
+        </a>
+        <ReactWhatsapp
+          number="+528661349071"
+          message="Me interesa más información"
+          class="btn-circle"
+        >
+          <img src="images/whatsapp.svg" alt="whatsapp" />
+        </ReactWhatsapp>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:aleegaarza@gmail.com?Subject=Hola!"
+        >
+          <img src="images/mobile-screen-solid.svg" alt="mobile" />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
